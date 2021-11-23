@@ -1,0 +1,35 @@
+// -------base---------//
+
+@import'base/common';
+
+// -------Components---------//
+
+@import'components/backdrop';
+@import'components/container';
+@import'components/hero__btn';
+@import'components/logo';
+@import'components/modal-btn';
+@import'components/modal';
+@import'components/modal__form-button';
+@import'components/section';
+@import'components/social';
+@import'components/site-nav';
+@import'components/modal-form';
+@import'components/subscribe';
+@import'components/icon';
+@import'components/btn';
+
+//----------layout----------//
+@import'layout/project';
+@import'layout/client';
+@import'layout/footer';
+@import'layout/gallery';
+@import'layout/header';
+@import'layout/hero';
+@import'layout/team';
+@import'layout/about';
+
+// ---------utils-----------//
+
+@import'utils/variables';
+@import'utils/visually-hidden';

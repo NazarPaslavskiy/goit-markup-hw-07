@@ -1,0 +1,24 @@
+.logo-mail {
+    display:flex;
+    content:"";
+    width: 16px;
+    height: 12px;
+    background-image:url(img/envelope-hover.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 10px;
+    fill: #757575;
+  }
+  
+  .logo-tel{
+    display:flex;
+    content:"";
+    width: 10px;
+    height: 16px;
+    background-image: url(img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-right: 10px;
+    fill: #757575;
+  
+    }
