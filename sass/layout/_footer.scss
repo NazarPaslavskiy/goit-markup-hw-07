@@ -75,28 +75,27 @@
   color: var(--primary-title-color);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-}
-
-.footer-list-icon-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-
-.footer-list-icon-item:hover,
-.footer-list-icon-item:focus {
+  &:not(:last-child) {
+    margin-right: 10px;
+    &:hover,
+    &:focus {
   background: var(--accent-color);
 }
 
+  }
+  
+}
   .footer-portfolio {
     margin-top: 94px;
   }
   
   .policy-text {
     color: var(--accent-color);
-  
+    &:focus {
+      outline: 1px solid var(--accent-color);
+    }
+    
   }
-  .policy-text:focus {
-    outline: 1px solid var(--accent-color);
-  }
+ 
   
   

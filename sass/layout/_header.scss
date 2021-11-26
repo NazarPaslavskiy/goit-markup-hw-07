@@ -1,9 +1,9 @@
-.header-nav {
+.header__nav {
     display: flex;
     align-items: center;
   }
   
-  .header-container {
+  .header__container {
     display: flex;
   }
   
@@ -12,19 +12,12 @@
     margin-left:auto;
     align-items: center;
   }  
-  .nav-item:not(:last-child) {
+  .nav__item:not(:last-child) {
     margin-right: 50px;
     display: flex;
     align-items: center;
   }
-  .header-contact:hover .logo-mail,
-  .header-contact:focus .logo-mail{
-    fill: var(--accent-color);
-  }
-  .header-contact:hover .logo-tel,
-  .header-contact:focus .logo-tel{
-    fill: var(--accent-color);
-  }
+
   .header {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -44,7 +37,7 @@
     
   }
   
-  .header-contact {
+  .header__contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;

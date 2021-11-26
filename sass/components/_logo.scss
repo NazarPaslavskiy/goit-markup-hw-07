@@ -1,4 +1,4 @@
-.logo-mail {
+.logo__mail {
     display:flex;
     content:"";
     width: 16px;
@@ -8,9 +8,13 @@
     background-position:center;
     margin-right: 10px;
     fill: #757575;
+    .header-contact:hover &,
+    .header-contact:focus &{
+      fill: var(--accent-color);
+    }
   }
   
-  .logo-tel{
+  .logo__tel{
     display:flex;
     content:"";
     width: 10px;
@@ -20,5 +24,9 @@
     background-position:center;
     margin-right: 10px;
     fill: #757575;
+    .header-contact:hover &,
+  .header-contact:focus &{
+    fill: var(--accent-color);
+  }
   
     }
